@@ -222,7 +222,6 @@ def deviceType(addr):
 def surfNum(addr):
     return addr - 128
 
-def turfioNum(addr)
-    return (addr-64)/8
-
+def turfioNum(addr):
+    return (addr-64) >> 3
 
